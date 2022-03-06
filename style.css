@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@font-face {
+    font-family:'baro';
+    src: url('baro-strip.otf');
+}
+
+body{
+    background-color: rgb(26, 25, 25);
+    padding: 0;
+    margin: 0;
+    color: white;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+li:hover{
+    color: purple;
+    transition: 0.3s;
+    cursor: pointer;
+}
+ul{
+    position: absolute;
+    right: 35px;
+    top: 5px;
+    font-size: 1.2em;
+}
+#join{
+    border: solid purple 2px;
+    padding: 10px;
+    border-radius: 50px;
+}
+#join:hover{
+    background-color: purple;
+    color: white;
+    transition: 0.3s;
+}
+#corpo{
+    padding-top: 50px;
+    padding: 60px;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+
+
+}
+h1{
+    font-size: 50px;
+    font-family:'baro';
+    color: purple;
+    line-height: 10px;
+}
+h2{
+    line-height: 15px;
+    font-family:'baro';
+    color: purple;
+    font-size: 300%;
+    
+}
+p{
+    font-size: 1.2em;
+    padding-right: 110px;
+    margin-bottom: 30px;
+ 
+
+}
+
+img{
+    width: auto;
+    height: 530px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.in{
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 70%;
+    border-radius: 90px;
+    margin-left: -10px;
+    border: none;
+}
+.button{
+    margin-top: 10px;
+    width: 280px;
+    background-color: purple;
+    color: white;
+    cursor:pointer;
+}
+.button:hover{
+    background-color: white;
+    color: purple;
+}
+span{
+    color: white;
+}
+
+@media (max-width: 1300px){
+    
+}
